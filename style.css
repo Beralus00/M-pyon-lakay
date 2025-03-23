@@ -1,0 +1,65 @@
+/* Jeneral */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: #fff;
+  padding: 1.5em;
+}
+
+/* Jwèt Tic Tac Toe */
+#board {
+  display: grid;
+  grid-template-columns: repeat(10, 50px);
+  grid-template-rows: repeat(6, 50px);
+  gap: 5px;
+  justify-content: center;
+  margin: 20px auto;
+  width: max-content;
+}
+
+.cell {
+  background: #fff;
+  border: 2px solid #333;
+  font-size: 1.5em;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background: #ddd;
+}
+
+/* Bouton */
+button {
+  background: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e65c00;
+}
+
+/* Seksyon depo */
+section {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
