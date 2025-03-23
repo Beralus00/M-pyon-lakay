@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ht">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mòpyon Lakay - Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Mòpyon Lakay</h1>
+    <p>Jwe, Pari, Gagne!</p>
+  </header>
+
+  <!-- Seksyon Jwèt Tic Tac Toe -->
+  <section id="game-section">
+    <h2>Jwe Mòpyon</h2>
+    <div id="board"></div>
+    <p id="game-status"></p>
+    <button id="restart">Rekòmanse Jwèt la</button>
+  </section>
+
+  <!-- Seksyon Depo Crypto -->
+  <section id="crypto-section">
+    <h2>Depoze Crypto</h2>
+    <button id="crypto-deposit">Depoze Kounye a</button>
+    <p id="crypto-status"></p>
+  </section>
+
+  <!-- Seksyon Depo Manyèl -->
+  <section id="manual-deposit-section">
+    <h2>Depoze Manyèl</h2>
+    <form id="manual-deposit-form">
+      <label>Montan:</label>
+      <input type="number" id="amount" required>
+
+      <label>Metòd Peman:</label>
+      <select id="payment-method">
+        <option>Transfè Labank</option>
+        <option>Lajan Mobil</option>
+      </select>
+
+      <label>Nimewo Referans:</label>
+      <input type="text" id="reference" required>
+
+      <label>Prèv Peman:</label>
+      <input type="file" id="proof" accept="image/*" required>
+
+      <button type="submit">Soumèt</button>
+    </form>
+    <p id="manual-status"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
